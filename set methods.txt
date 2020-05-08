@@ -1,0 +1,97 @@
+s=[1,2]#A set is an unordered collection of elements
+s2={1,2,3,3,"t"}#create a set ..can be created use curly braces{}
+s4={5,6,7,"oi"}
+s3=set(s)#set can be created from  variable S using set() function
+print(len(s2)+len(s3))
+#res is 5  because does not contain duplicate values
+#in out set s2 value 2 is presented 2 times so it can be counted as one 
+s2.add(4)#return nothing ..value is none 
+print(s2)#output is [1,2,4]
+#4 can be added into s2
+d=s4.update(s)
+print
+#output -{1, 2, 5, 6, 7, 'oi'}
+#s4 can be iterable ..
+#error found- when u give a single integers instead of iterable like list,dictionary
+
+#A.update(iter1, iter2, iter3) it can take many num of arguments
+
+
+
+#This set update() method returns None (returns nothing
+#clear()
+it remove all the elements from set
+clr={1,2}
+clr.clear()
+print(clr)#o/p-set()
+
+
+
+
+
+A = {1,2,4}
+B = {2,3,4}
+
+
+s=A.difference(B)
+print(s)# return 
+#we can see the difference only when print value of s
+result = B.difference_update(A)#does not return any value difference_update 
+
+
+print('A = ', A)#{a,d}
+print('B = ', B)#changes can be made in A does not affect B
+print('result = ', result)#none
+#when using a difference_update method we access a set to see their changes
+#unique elements can be printed 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#remove
+#remove method return none value
+remove1={1,2,4}
+
+n=remove1.remove(1)#it take one argument ..that is value of element
+print(remove1)#{2,4}suppose i want del (3)
+# keyError exception is thrown.beacuse it doesn't exit in  the set
+print(n)#none 
+
+
+
+
+#discard
+remove1.discard(5)
+print(remove1)#output is -{2,4}
+#You can use discard() method if you do not want this error. 
+#The set remains unchanged if the element passed to discard() method doesn't exist
+
+
+
+
+#pop 
+#it will return a removed element and it can removes a random element
+#the pop(he pop() method doesn't take any arguments.) method doesn't take any arguments.
+pop1={5,2,3}
+li=pop1.pop()
+print(pop1)#remove a random element #o/p-{5,3}
+print(li)#return removed element #o/p-2

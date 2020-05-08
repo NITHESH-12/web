@@ -1,0 +1,9 @@
+*{
+	padding: 0;
+	margin:0;
+	/*set a margin to entire page use * symbol */
+}
+.wrapper
+{
+	background-image: url("lap.jpeg") no-repeat;
+}

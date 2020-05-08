@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin:0;
+	/*set a margin to entire page use * symbol */
+}
+.wrapper
+{
+	background-image: url(lap.jpeg);
+	background-size: cover;
+	height:200vh;
+}
+.navi{
+	height:110px;
+	width: 100%;
+	/*background-color:red;*/
+background: rgba(0,0,0,0.5);}
+.logo{
+width:150px;
+height:60%;
+padding-right:50px;
+padding-top:15px;
+padding-left:70px; 
+padding-bottom:-20px; }
+
+
+.navi ul li{
+	list-style-type: none;
+	/* background-color: lightcoral; */
+	/* display:inline-flex;#used to create a navigation bar  */
+	margin: 0.8px;
+	padding:0px;
+	line-height: -22px;
+	/* width:80px; */
+	display: inline;
+	padding-right:10px;
+	/* margin-right: 20px; */
+	/* margin-top:30px; */
+	/* transform: translate3d(3px,4px,8px); */
+	/* float:right; */
+	/* background-color: red; */
+}
+.navi ul li a{
+	text-decoration: none;
+	color:whitesmoke;
+	font-size: medium;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style: bold; 
+	display:inline-block;
+	transform: translateZ(-6px);
+	text-orientation: ;
+}
+.navi ul li a:active , 
+.navi ul li a:hover{
+	
+	/* color:olivedrab; */
+
+
+	background-color: cornflowerblue;
+}
+.navi ul li a:act,
+.navi ul li a:hover{
+	color:grey;
+	background-color: aqua;
+}
